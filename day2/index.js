@@ -1,0 +1,280 @@
+use tansport
+
+db.createCollection("car")
+
+db.your_collection_name.insertMany(
+[{
+  "_id": {
+    "$oid": "64917929ba13db9761883d2e"
+  },
+  "Name": "swift",
+  "Model": "DTS",
+  "Rented_user_count": 1,
+  "Mileage": 18,
+  "Transmission": "automatic",
+  "Rent": 1300,
+  "Fuel": "petrol",
+  "Image_url": "swift-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917929ba13db9761883d2f"
+  },
+  "Name": "honda",
+  "Model": "Civic",
+  "Rented_user_count": 2,
+  "Mileage": 20,
+  "Transmission": "automatic",
+  "Rent": 1500,
+  "Fuel": "petrol",
+  "Image_url": "honda-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917929ba13db9761883d30"
+  },
+  "Name": "toyota",
+  "Model": "Corolla",
+  "Rented_user_count": 0,
+  "Mileage": 22,
+  "Transmission": "automatic",
+  "Rent": 1400,
+  "Fuel": "petrol",
+  "Image_url": "toyota-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917929ba13db9761883d31"
+  },
+  "Name": "ford",
+  "Model": "Mustang",
+  "Rented_user_count": 3,
+  "Mileage": 15,
+  "Transmission": "manual",
+  "Rent": 2000,
+  "Fuel": "petrol",
+  "Image_url": "ford-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917929ba13db9761883d32"
+  },
+  "Name": "chevrolet",
+  "Model": "Camaro",
+  "Rented_user_count": 1,
+  "Mileage": 14,
+  "Transmission": "manual",
+  "Rent": 1800,
+  "Fuel": "petrol",
+  "Image_url": "chevrolet-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917929ba13db9761883d33"
+  },
+  "Name": "nissan",
+  "Model": "Altima",
+  "Rented_user_count": 0,
+  "Mileage": 25,
+  "Transmission": "automatic",
+  "Rent": 1200,
+  "Fuel": "petrol",
+  "Image_url": "nissan-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917929ba13db9761883d34"
+  },
+  "Name": "bmw",
+  "Model": "X5",
+  "Rented_user_count": 2,
+  "Mileage": 12,
+  "Transmission": "automatic",
+  "Rent": 2500,
+  "Fuel": "petrol",
+  "Image_url": "bmw-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917929ba13db9761883d35"
+  },
+  "Name": "mercedes",
+  "Model": "C-Class",
+  "Rented_user_count": 2,
+  "Mileage": 16,
+  "Transmission": "automatic",
+  "Rent": 2200,
+  "Fuel": "petrol",
+  "Image_url": "mercedes-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917929ba13db9761883d36"
+  },
+  "Name": "audi",
+  "Model": "A4",
+  "Rented_user_count": 1,
+  "Mileage": 20,
+  "Transmission": "automatic",
+  "Rent": 2000,
+  "Fuel": "petrol",
+  "Image_url": "audi-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917929ba13db9761883d37"
+  },
+  "Name": "volkswagen",
+  "Model": "Golf",
+  "Rented_user_count": 0,
+  "Mileage": 18,
+  "Transmission": "manual",
+  "Rent": 1500,
+  "Fuel": "petrol",
+  "Image_url": "volkswagen-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a84640797"
+  },
+  "Name": "swift",
+  "Model": "DTS",
+  "Rented_user_count": 1,
+  "Mileage": 18,
+  "Transmission": "automatic",
+  "Rent": 1300,
+  "Fuel": "petrol",
+  "Image_url": "swift-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a84640798"
+  },
+  "Name": "honda",
+  "Model": "Civic",
+  "Rented_user_count": 2,
+  "Mileage": 20,
+  "Transmission": "automatic",
+  "Rent": 1500,
+  "Fuel": "petrol",
+  "Image_url": "honda-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a84640799"
+  },
+  "Name": "toyota",
+  "Model": "Corolla",
+  "Rented_user_count": 0,
+  "Mileage": 22,
+  "Transmission": "automatic",
+  "Rent": 1400,
+  "Fuel": "petrol",
+  "Image_url": "toyota-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a8464079a"
+  },
+  "Name": "ford",
+  "Model": "Mustang",
+  "Rented_user_count": 3,
+  "Mileage": 15,
+  "Transmission": "manual",
+  "Rent": 2000,
+  "Fuel": "petrol",
+  "Image_url": "ford-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a8464079b"
+  },
+  "Name": "chevrolet",
+  "Model": "Camaro",
+  "Rented_user_count": 1,
+  "Mileage": 14,
+  "Transmission": "manual",
+  "Rent": 1800,
+  "Fuel": "petrol",
+  "Image_url": "chevrolet-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a8464079c"
+  },
+  "Name": "nissan",
+  "Model": "Altima",
+  "Rented_user_count": 0,
+  "Mileage": 25,
+  "Transmission": "automatic",
+  "Rent": 1200,
+  "Fuel": "petrol",
+  "Image_url": "nissan-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a8464079d"
+  },
+  "Name": "bmw",
+  "Model": "X5",
+  "Rented_user_count": 2,
+  "Mileage": 12,
+  "Transmission": "automatic",
+  "Rent": 2500,
+  "Fuel": "petrol",
+  "Image_url": "bmw-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a8464079e"
+  },
+  "Name": "mercedes",
+  "Model": "C-Class",
+  "Rented_user_count": 2,
+  "Mileage": 16,
+  "Transmission": "automatic",
+  "Rent": 2200,
+  "Fuel": "petrol",
+  "Image_url": "mercedes-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a8464079f"
+  },
+  "Name": "audi",
+  "Model": "A4",
+  "Rented_user_count": 1,
+  "Mileage": 20,
+  "Transmission": "automatic",
+  "Rent": 2000,
+  "Fuel": "petrol",
+  "Image_url": "audi-img.png"
+},
+{
+  "_id": {
+    "$oid": "64917bce06610c2a846407a0"
+  },
+  "Name": "volkswagen",
+  "Model": "Golf",
+  "Rented_user_count": 0,
+  "Mileage": 18,
+  "Transmission": "manual",
+  "Rent": 1500,
+  "Fuel": "petrol",
+  "Image_url": "volkswagen-img.png"
+}])
+
+db.car.find()
+
+db.car.find({name:"bmw"})
+
+db.car.update({name:"audi"},{$set:{mileage:32}})
+
+db.car.updateMany({name:"Skoda"},{$set:{fuel:"manual"}})
+
+db.car.deleteOne({name:"audi"})
+
+db.car.deleteMany({"Fuel": "petrol"})
+
+
+
