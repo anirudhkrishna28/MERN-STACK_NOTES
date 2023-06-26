@@ -1,0 +1,9 @@
+TamilNadu : Chennai
+Maharatsra : Mumbai
+Kerala : Thiruvananthapuram
+AndraPradesh : Amaravati
+Madyapradesh : Bhopal
+UttarPradesh : Lucknow
+Himachalpradesh : Shimla
+JarKand : Srinagar
+Karnataka : Bangalore
