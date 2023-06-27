@@ -14,7 +14,7 @@ function read(filePath) {
         })) 
     }) 
 } 
- 
+
 const requestListener = async (request, response) => { 
     try { 
         let data; 
