@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+<link rel="stylesheet" href="style.css">
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            window.scrollTo({
+                top: section.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="#" onclick="scrollToSection('home')">Home</a>
+        <a href="#" onclick="scrollToSection('projects')">Projects</a>
+        <a href="#" onclick="scrollToSection('achievements')">Achievements</a>
+        <a href="#" onclick="scrollToSection('skills')">Programming Languages Known</a>
+        <a href="#" onclick="scrollToSection('contact')">Contact</a>
+    </div>
+
+    <div id="home" class="section">
+        <h2>Hola 🙋‍♂️👋 from ANIRUDH KRISHNA S </h2>
+        <div class="profile">
+            <img src="./images/ani.jpg" alt="My Photo">
+            <div>
+                <h3>Programmer 🧑🏻‍💻||
+                MERN-stack developer 🧑🏻‍💻</h3>
+            </div>
+
+        </div>
+        <div>
+            <p>
+                Computer Science
+                Engineering Student.
+                consider my self a
+                responsible and orderly
+                person.
+                I am looking foward for
+                my first work
+                experience.
+
+            </p>
+        </div>
+    </div>
+
+    <div id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="card">
+            <h3>Voice Assistant using python</h3>
+            <p>gets voice input from the user and perform tasks like searching the query in google,wikipedia,whatsapp automation
+                launch applications in computer using pywhatkit modeule and speech recognition module.
+            </p>
+            <a href="https://github.com/anirudhkrishna28/AI-Voice-assistant" target="_blank">GitHub</a>
+        </div>
+        <div class="card">
+            <h3>Laptop Finder</h3>
+            <p>A Flask-based web application that suggests laptops based on user input, allowing direct contact 
+                with local shop owners for the best price and providing purchase options via Flipkart and Amazon. via automatic whatsapp message
+            </p>
+            <a href="https://github.com/anirudhkrishna28/LAPINFO" target="_blank">GitHub</a>
+        </div>
+        <div class="card">
+            <h3>zomato static page</h3>
+            <p>zomato static page</p>
+            <a href="https://github.com/anirudhkrishna28/Zomato-Landing-Static-Page" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <div id="achievements" class="section">
+        <h2>Achievements</h2>
+        <div class="card">
+            <h3>x-ecutors ramanujan 2021 - sece</h3>
+            <p> got 3rd prize</p>
+        </div>
+        <div class="card">
+            <h3>BEC (Cambridge Qualification) </h3>
+            <p>- B1 level
+            </p>
+        </div>
+        <div class="card">
+            <h3>code debugging - psna college</h3>
+            <p>got 3rd prize</p>
+        </div>
+    </div>
+
+    <div id="skills" class="section">
+        <h2>Programming Languages Known</h2>
+        <div class="card">
+            <h3>Python</h3>
+            <div class="progress">
+                <div class="progress-bar" style="width: 80%;"></div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>java</h3>
+            <div class="progress">
+                <div class="progress-bar" style="width: 60%;"></div>
+            </div>
+        </div>
+        <div class="card">
+            <h3>MERN</h3>
+            <div class="progress">
+                <div class="progress-bar" style="width: 30%;"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="ratings" class="section">
+        <h2>Ratings</h2>
+        <div class="card">
+            <a href="https://leetcode.com/anirudhkrishna28/" target="_blank"><h3>LeetCode </h3></a>
+            <p>Rating: 1609</p>
+        </div>
+        <div class="card">
+            <a href="https://www.codechef.com/users/secemcs_012" target="_blank"><h3>CodeChef </h3></a>
+            <p>Rating: 1491
+                (Div 3)
+                ★★</p>
+        </div>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="card">
+            <h3>Contact Information</h3>
+        <a><p>Email: anikrish2804@gmail.com</p></a>
+            <p>Phone 8825447947</p>
+            <a href="https://github.com/anirudhkrishna28" target="_blank"><p>Github</p></a>
+        <a href="https://shorturl.at/iuzBR" target="_blank"><p>LinkedIn</p></a>
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
